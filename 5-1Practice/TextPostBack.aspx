@@ -10,6 +10,9 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <asp:Button ID="Button1" runat="server" Text="Button" /><br/>
+            <asp:TextBox ID="tbx_Number" runat="server" AutoPostBack="True" OnTextChanged="tbx_Number_TextChanged"></asp:TextBox><br/>
+            <asp:Label ID="lb_Txt" runat="server" Text="Label"></asp:Label>
         </div>
     </form>
 </body>
